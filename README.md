@@ -25,6 +25,7 @@ The paper combines three publicly available PE malware datasets, restricted to t
 
 | Folder / file              | Purpose                                                         |
 |----------------------------|-----------------------------------------------------------------|
+| `experiments_1_to_6/`      | Experiments 1--6 — data cleaning, merge, cross-era, monthly drift, family FNR, feature-group ablation, incremental retraining |
 | `common/`                  | Shared modules: data loader, classifier factory, metrics, sampling utilities, project seeds |
 | `exp7_aut/`                | Experiment 7 — cumulative AUT post-hoc analysis                 |
 | `exp8_drift_detector/`     | Experiment 8 — drift-triggered retraining (ADWIN, DDM)          |
