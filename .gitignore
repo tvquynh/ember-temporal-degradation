@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Results / build artifacts
+results/
+*.csv
+*.json
+*.parquet
+*.pkl
+!exp7_aut/expected_*.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# LaTeX compile artifacts (if added later)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc

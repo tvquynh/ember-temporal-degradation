@@ -1,0 +1,11 @@
+# Pinned to versions known on a 60-core server venv (verified 2026-05-07).
+# Do NOT install locally on Windows; everything runs on a 60-core server only.
+lightgbm>=4.6
+scikit-learn>=1.7
+pandas>=2.2
+pyarrow>=14
+imbalanced-learn>=0.12
+river>=0.22
+numpy>=1.26,<2.3
+scipy>=1.11
+pytest>=8.0
