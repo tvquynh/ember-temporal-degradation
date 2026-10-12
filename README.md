@@ -9,7 +9,7 @@ Reproducibility artifact for the paper:
 This repository contains the experiment scripts, data-cleaning pipeline, statistical analysis, and figure-generation code used to produce all numerical results and figures in the paper.
 
 [![DOI (article)](https://img.shields.io/badge/DOI-10.1109%2FACCESS.2026.3706553-blue)](https://doi.org/10.1109/ACCESS.2026.3706553)
-[![DOI (software)](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20279488-blue)](https://doi.org/10.5281/zenodo.20279488)
+[![DOI (software, concept)](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20088668-blue)](https://doi.org/10.5281/zenodo.20088668)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Datasets
@@ -124,8 +124,8 @@ If you use this code in your research, please cite **both** the paper and this s
   author  = {Huynh, Trong-Thua and Huynh, De-Thu and Nguyen, Minh Thang and Trinh, Van-Quynh},
   title   = {{ember-temporal-degradation}: Reproducibility artifact for ``Temporal Degradation in Machine Learning-Based Malware Detection''},
   year    = {2026},
-  version = {v1.5.2},
-  doi     = {10.5281/zenodo.20279488},
+  version = {v1.5.3},
+  doi     = {10.5281/zenodo.20088668},
   url     = {https://github.com/tvquynh/ember-temporal-degradation}
 }
 ```

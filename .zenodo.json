@@ -4,7 +4,7 @@
   "description": "Source code, experiment scripts, data-cleaning pipeline, statistical analysis, and figure-generation code for the paper \"Temporal Degradation in Machine Learning-Based Malware Detection: A Multi-Dataset, Multi-Year Empirical Study,\" published in IEEE Access, 2026 (DOI: 10.1109/ACCESS.2026.3706553). The artifact reproduces the full nine-experiment pipeline (temporal baselines, cross-era transfer, monthly drift, incremental retraining, family-level FNR decomposition, feature-group ablation, cumulative Area-Under-Time analysis, ADWIN/DDM-triggered retraining, and uncertainty-sampled active learning) over EMBER 2017, EMBER 2018, and BODMAS corpora in the EMBER v2 feature space (1,684,338 samples, 2017-2020).",
   "access_right": "open",
   "license": "MIT",
-  "version": "v1.5.2",
+  "version": "v1.5.3",
   "publication_date": "2026-10-12",
   "communities": [],
   "keywords": [
@@ -50,7 +50,7 @@
     },
     {
       "relation": "isVersionOf",
-      "identifier": "10.5281/zenodo.20279488",
+      "identifier": "10.5281/zenodo.20088668",
       "scheme": "doi"
     }
   ]
