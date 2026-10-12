@@ -3,11 +3,13 @@
 Reproducibility artifact for the paper:
 
 > **Temporal Degradation in Machine Learning-Based Malware Detection: A Multi-Dataset, Multi-Year Empirical Study**
-> Trong-Thua Huynh, Van-Quynh Trinh (corresponding), De-Thu Huynh
-> Submitted to *IEEE Access*, 2026.
+> Trong-Thua Huynh, De-Thu Huynh, Minh Thang Nguyen, Van-Quynh Trinh (corresponding)
+> **IEEE Access**, 2026. DOI: [10.1109/ACCESS.2026.3706553](https://doi.org/10.1109/ACCESS.2026.3706553)
 
 This repository contains the experiment scripts, data-cleaning pipeline, statistical analysis, and figure-generation code used to produce all numerical results and figures in the paper.
 
+[![DOI (article)](https://img.shields.io/badge/DOI-10.1109%2FACCESS.2026.3706553-blue)](https://doi.org/10.1109/ACCESS.2026.3706553)
+[![DOI (software)](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20279488-blue)](https://doi.org/10.5281/zenodo.20279488)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Datasets
@@ -30,10 +32,14 @@ The paper combines three publicly available PE malware datasets, restricted to t
 | `exp7_aut/`                | Experiment 7 — cumulative AUT post-hoc analysis                 |
 | `exp8_drift_detector/`     | Experiment 8 — drift-triggered retraining (ADWIN, DDM)          |
 | `exp9_active_learning/`    | Experiment 9 — uncertainty sampling vs. random sampling         |
+| `strict_temporal_rerun/`   | Strict appeared-year re-run of Experiments 1 and 6              |
+| `analysis/`                | Statistical analysis (Holm correction, Cohen's d) and figure helpers |
 | `tests/`                   | Unit tests (data loader / metrics / sampling)                   |
-| `generate_figures.py`      | Re-generate the seven monthly / bar / cumulative-AUT figures    |
+| `generate_figures.py`      | Re-generate the monthly / bar / cumulative-AUT figures          |
 | `requirements.txt`         | Pinned Python dependencies                                      |
 | `RUNBOOK.md`               | Operational guide (pre-flight, smoke, full run, verification)   |
+| `CITATION.cff`             | Machine-readable citation (CFF 1.2.0)                           |
+| `.zenodo.json`             | Zenodo deposition metadata (auto-synced on each GitHub release) |
 
 ## Reproducing the experiments
 
@@ -96,17 +102,35 @@ SEEDS = [42, 123, 456, 789, 1011, 2026, 3141, 4242, 5555, 6789]
 
 ## Citation
 
-If you use this code in your research, please cite the paper:
+If you use this code in your research, please cite **both** the paper and this software release.
+
+**Paper (preferred citation):**
 
 ```bibtex
 @article{huynh2026temporal,
-  author  = {Huynh, Trong-Thua and Trinh, Van-Quynh and Huynh, De-Thu},
+  author  = {Huynh, Trong-Thua and Huynh, De-Thu and Nguyen, Minh Thang and Trinh, Van-Quynh},
   title   = {Temporal Degradation in Machine Learning-Based Malware Detection: A Multi-Dataset, Multi-Year Empirical Study},
   journal = {IEEE Access},
   year    = {2026},
-  note    = {Manuscript ID: Access-2026-15431}
+  doi     = {10.1109/ACCESS.2026.3706553},
+  url     = {https://doi.org/10.1109/ACCESS.2026.3706553}
 }
 ```
+
+**Software release:**
+
+```bibtex
+@software{huynh2026temporal_software,
+  author  = {Huynh, Trong-Thua and Huynh, De-Thu and Nguyen, Minh Thang and Trinh, Van-Quynh},
+  title   = {{ember-temporal-degradation}: Reproducibility artifact for ``Temporal Degradation in Machine Learning-Based Malware Detection''},
+  year    = {2026},
+  version = {v1.5.2},
+  doi     = {10.5281/zenodo.20279488},
+  url     = {https://github.com/tvquynh/ember-temporal-degradation}
+}
+```
+
+See `CITATION.cff` for a machine-readable version of these citations.
 
 ## License
 

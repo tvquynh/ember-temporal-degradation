@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite both the paper and the software release."
+title: "ember-temporal-degradation: Reproducibility artifact for \"Temporal Degradation in Machine Learning-Based Malware Detection: A Multi-Dataset, Multi-Year Empirical Study\""
+type: software
+version: "1.5.2"
+date-released: 2026-10-12
+license: MIT
+repository-code: "https://github.com/tvquynh/ember-temporal-degradation"
+url: "https://doi.org/10.5281/zenodo.20279488"
+doi: "10.5281/zenodo.20279488"
+authors:
+  - family-names: Huynh
+    given-names: Trong-Thua
+    orcid: "https://orcid.org/0000-0003-3934-1067"
+    affiliation: "Posts and Telecommunications Institute of Technology (PTIT), Vietnam"
+    email: thuaht@ptit.edu.vn
+  - family-names: Huynh
+    given-names: De-Thu
+    orcid: "https://orcid.org/0000-0002-1227-0281"
+    affiliation: "The Saigon International University (SIU), Vietnam"
+    email: huynhdethu@siu.edu.vn
+  - family-names: Nguyen
+    given-names: Minh Thang
+    orcid: "https://orcid.org/0009-0000-0218-4470"
+    affiliation: "Ho Chi Minh City University of Economics and Finance (UEF), Vietnam"
+    email: thangnm@uef.edu.vn
+  - family-names: Trinh
+    given-names: Van-Quynh
+    orcid: "https://orcid.org/0009-0006-0514-6123"
+    affiliation: "Posts and Telecommunications Institute of Technology (PTIT), Vietnam"
+    email: quynhtv@ptithcm.edu.vn
+preferred-citation:
+  type: article
+  title: "Temporal Degradation in Machine Learning-Based Malware Detection: A Multi-Dataset, Multi-Year Empirical Study"
+  journal: "IEEE Access"
+  year: 2026
+  doi: "10.1109/ACCESS.2026.3706553"
+  url: "https://doi.org/10.1109/ACCESS.2026.3706553"
+  authors:
+    - family-names: Huynh
+      given-names: Trong-Thua
+      orcid: "https://orcid.org/0000-0003-3934-1067"
+    - family-names: Huynh
+      given-names: De-Thu
+      orcid: "https://orcid.org/0000-0002-1227-0281"
+    - family-names: Nguyen
+      given-names: Minh Thang
+      orcid: "https://orcid.org/0009-0000-0218-4470"
+    - family-names: Trinh
+      given-names: Van-Quynh
+      orcid: "https://orcid.org/0009-0006-0514-6123"
+keywords:
+  - concept drift
+  - malware detection
+  - machine learning
+  - temporal analysis
+  - PE malware
+  - EMBER
+  - BODMAS
+  - drift detection
+  - active learning
+  - reproducibility

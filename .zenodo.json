@@ -1,0 +1,57 @@
+{
+  "title": "ember-temporal-degradation: Reproducibility artifact for \"Temporal Degradation in Machine Learning-Based Malware Detection: A Multi-Dataset, Multi-Year Empirical Study\" (IEEE Access, 2026)",
+  "upload_type": "software",
+  "description": "Source code, experiment scripts, data-cleaning pipeline, statistical analysis, and figure-generation code for the paper \"Temporal Degradation in Machine Learning-Based Malware Detection: A Multi-Dataset, Multi-Year Empirical Study,\" published in IEEE Access, 2026 (DOI: 10.1109/ACCESS.2026.3706553). The artifact reproduces the full nine-experiment pipeline (temporal baselines, cross-era transfer, monthly drift, incremental retraining, family-level FNR decomposition, feature-group ablation, cumulative Area-Under-Time analysis, ADWIN/DDM-triggered retraining, and uncertainty-sampled active learning) over EMBER 2017, EMBER 2018, and BODMAS corpora in the EMBER v2 feature space (1,684,338 samples, 2017-2020).",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "v1.5.2",
+  "publication_date": "2026-10-12",
+  "communities": [],
+  "keywords": [
+    "concept drift",
+    "malware detection",
+    "machine learning",
+    "temporal analysis",
+    "PE malware",
+    "EMBER",
+    "BODMAS",
+    "drift detection",
+    "active learning",
+    "reproducibility"
+  ],
+  "creators": [
+    {
+      "name": "Huynh, Trong-Thua",
+      "affiliation": "Posts and Telecommunications Institute of Technology (PTIT), Vietnam",
+      "orcid": "0000-0003-3934-1067"
+    },
+    {
+      "name": "Huynh, De-Thu",
+      "affiliation": "The Saigon International University (SIU), Vietnam",
+      "orcid": "0000-0002-1227-0281"
+    },
+    {
+      "name": "Nguyen, Minh Thang",
+      "affiliation": "Ho Chi Minh City University of Economics and Finance (UEF), Vietnam",
+      "orcid": "0009-0000-0218-4470"
+    },
+    {
+      "name": "Trinh, Van-Quynh",
+      "affiliation": "Posts and Telecommunications Institute of Technology (PTIT), Vietnam",
+      "orcid": "0009-0006-0514-6123"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.1109/ACCESS.2026.3706553",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "relation": "isVersionOf",
+      "identifier": "10.5281/zenodo.20279488",
+      "scheme": "doi"
+    }
+  ]
+}

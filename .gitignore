@@ -11,6 +11,7 @@ venv/
 results/
 *.csv
 *.json
+!.zenodo.json
 *.parquet
 *.pkl
 !exp7_aut/expected_*.csv
